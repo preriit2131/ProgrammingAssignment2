@@ -21,7 +21,7 @@ list(set = set, get = get, setinverse = setinverse, getinverse = getinverse)
 
 cacheSolve <- function(a, ...) {
         # Need to compare matrix to what was there before
-               m <- x$getinverse() # check to see if cacheSolve has been run before
+               m <- x$getinverse() # check to see if cacheSolve has been run before.
 if(!is.null(m)) {  # check that matrix hasn't changed
 message("getting cached data")
 return(m)
